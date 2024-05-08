@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.png">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html">INÍCIO</a></li>
+                <li class="nav-item"><a href="index.html#team">CORPO CLÍNICO</a></li>
+                <li class="nav-item"><a href="index.html#servicos">TRATAMENTOS</a></li>
+                <li class="nav-item"><a href="index.html#contato">CONTATOS</a></li>
+                <li class="nav-item"><a href="#"><i class="bi bi-person-circle"></i></a></li>
+            </ul>
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-login">
+        <div class="container" id="container">
+            <div class="form-container sign-in">
+                <form action="usuario.html" method="get">
+                    <h1>Crie uma Conta</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icon"><i class="bi bi-google"></i></a>
+                        <a href="#" class="icon"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="icon"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="icon"><i class="bi bi-linkedin"></i></a>    
+                    </div>
+                    <span> Ou use o  seu email para se registrar</span>
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Senha">
+                    <button>Cadastrar-se</button>
+
+                </form>
+            </div>
+            <div class="form-container sign-up">
+                <form action="usuario.html" method="get">
+                    <h1>Login</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icon"><i class="bi bi-google"></i></a>
+                        <a href="#" class="icon"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="icon"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="icon"><i class="bi bi-linkedin"></i></a>    
+                    </div>
+                    <span> Use seu email e senha para logar-se</span>
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Senha">
+                    <a href="#"> Esqueceu a senha?</a>
+                    <button>Login</button>
+                </form>
+            </div>
+            <div class="toggle-container">
+                <div class="toogle">
+                    <div class="toogle-panel toogle-left">
+                        <h1>Bem vindo de volta!</h1>
+                        <p>Coloque seu email e senha para acessar todos os recursos do site</p>
+                        <button class="hidden" id="login">Registre-se</button>
+                    </div>
+                    <div class="toogle-panel toogle-right">
+                        <h1>Olá!</h1>
+                        <p>Registre-se para acessar todos os recursos do site</p>
+                        <button class="hidden" id="register">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="adm">
+            <a href="#login-adm.html">
+                <button onclick="window.location.href='login-adm.html';">ADMINISTRADOR</button>
+            </a>
+        </div>
+    </section>
+
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

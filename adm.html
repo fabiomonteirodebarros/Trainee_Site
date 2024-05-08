@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="adm.css">
+    <script src="adm.js" defer></script>
+    <title>Adm</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.png">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html">INÍCIO</a></li>
+                <li class="nav-item"><a href="index.html#team">CORPO CLÍNICO</a></li>
+                <li class="nav-item"><a href="index.html#servicos">TRATAMENTOS</a></li>
+                <li class="nav-item"><a href="index.html#contato">CONTATOS</a></li>
+                <li class="nav-item"><a href="login.html"><i class="bi bi-person-circle"></i></a></li>
+            </ul>
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="page-adm">
+        <div class="contianer">
+            <div class="calendar">
+              <div class="calendar-header">
+                <span class="month-picker" id="month-picker"> May </span>
+                <div class="year-picker" id="year-picker">
+                  <span class="year-change" id="pre-year">
+                    <pre><</pre>
+                  </span>
+                  <span id="year">2020 </span>
+                  <span class="year-change" id="next-year">
+                    <pre>></pre>
+                  </span>
+                </div>
+              </div>
+       
+              <div class="calendar-body">
+                <div class="calendar-week-days">
+                  <div>Dom</div>
+                  <div>Seg</div>
+                  <div>Ter</div>
+                  <div>Qua</div>
+                  <div>Qui</div>
+                  <div>Sex</div>
+                  <div>Sab</div>
+                </div>
+                <div class="calendar-days">
+                </div>
+              </div>
+              <div class="calendar-footer">
+              </div>
+              <div class="date-time-formate">
+                <div class="day-text-formate">HOJE</div>
+                <div class="date-time-value">
+                  <div class="time-formate">02:51:20</div>
+                  <div class="date-formate">30 - abril - 2024</div>
+                </div>
+              </div>
+              <div class="month-list"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tania">
+        <div class="tania-container duplicated">
+            <img src="img/Tania-sem-fundo.png" id="tania-derma">
+            <h3>Dra Tânia</h3>
+        </div>
+
+        <div id="servicos" class="duplicated">
+            <div class="servico">
+                <img src="img/cliente3.jpg" class="feedback-avatar">
+
+                <div class="feedback-content">
+                    <p>
+                        Luiza Silva
+                        <span>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </span>
+                    </p>
+                    <h2>
+                        Consulta | 12:00
+                    </h2>
+                </div>
+            </div>
+            <div class="servico">
+                <img src="img/cliente1.jpg" class="feedback-avatar">
+
+                <div class="feedback-content">
+                    <p>
+                        Mariana Castro
+                        <span>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </span>
+                    </p>
+                    <h2>
+                        Toxína Botulínica | 14:00
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tania">
+        <div class="tania-container">
+            <img src="img/Laura-sem-fundo.png" id="tania-derma">
+            <h3>Dra Laura</h3>
+        </div>
+
+        <div id="servicos">
+            <div class="servico">
+                <img src="img/cliente2.jpg" class="feedback-avatar">
+
+                <div class="feedback-content">
+                    <p>
+                        Marina Castro
+                        <span>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </span>
+                    </p>
+                    <h2>
+                        Bioestimulador | 10:00
+                    </h2>
+                </div>
+            </div>
+            <div class="servico">
+                <img src="img/cliente4.jpg" class="feedback-avatar">
+
+                <div class="feedback-content">
+                    <p>
+                        Julia Costa
+                    </p>
+                    <h2>
+                        Preenchimento Facial | 15:00
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tania">
+        <div class="tania-container">
+            <img src="img/Antonio-sem-fundo.png" id="tania-derma">
+            <h3>Dr Antônio</h3>
+        </div>
+
+        <div id="servicos">
+            <div class="servico">
+                <img src="img/cliente5.jpg" class="feedback-avatar">
+
+                <div class="feedback-content">
+                    <p>
+                        Laura Marques
+                        <span>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </span>
+                    </p>
+                    <h2>
+                        Consulta | 13:00
+                    </h2>
+                </div>
+            </div>
+            <div class="servico">
+                <img src="img/cliente6.jpg" class="feedback-avatar">
+
+                <div class="feedback-content">
+                    <p>
+                        Fernanda Souza
+                        <span>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </span>
+                    </p>
+                    <h2>
+                        Toxina Botulínica | 9:00
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dashboard">
+        <div class="content2">
+            <div class="cards">
+                <div class="card">
+                    <div class="box">
+                        <h1>2194</h1>
+                        <h3>Clientes</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="img/icone-cliente.png">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>8</h1>
+                        <h3>Funcionários</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="img/funcionarios.png">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>1</h1>
+                        <h3>Unidade</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="img/hospital.png">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>350000</h1>
+                        <h3>Receita</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="img/renda.png">
+                    </div>
+                </div>
+            </div>
+            <div class="content-2">
+                <div class="recent-payments">
+                    <div class="title">
+                        <h2>Pagamentos Recentes</h2>
+                        <a href="#" class="btn">Mostrar tudo</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Motivo</th>
+                            <th>Valor</th>
+                            <th>Opção</th>
+                        </tr>
+                        <tr>
+                            <td>Flávia Bergamo</td>
+                            <td>Preenchimento Facial</td>
+                            <td>R$5.000,00</td>
+                            <td><a href="#" class="btn" >Motrar mais</a></td>
+                        </tr>
+                        <tr>
+                            <td>Marcia França</td>
+                            <td>Toxina Botulínica</td>
+                            <td>R$3.000,00</td>
+                            <td><a href="#" class="btn" >Motrar mais</a></td>
+                        </tr>
+                        <tr>
+                            <td>Katia Daga</td>
+                            <td>Bioestimulador</td>
+                            <td>R$2.000,00</td>
+                            <td><a href="#" class="btn" >Motrar mais</a></td>
+                        </tr>
+                        <tr>
+                            <td>Henrique Santos</td>
+                            <td>Luz</td>
+                            <td>R$450,00</td>
+                            <td><a href="#" class="btn" >Motrar mais</a></td>
+                        </tr>
+                        <tr>
+                            <td>Luiza Machado</td>
+                            <td>Salário</td>
+                            <td>R$3.500,00</td>
+                            <td><a href="#" class="btn" >Motrar mais</a></td>
+                        </tr>
+                        <tr>
+                            <td>Marta Souza</td>
+                            <td>Salário</td>
+                            <td>R$2.900,00</td>
+                            <td><a href="#" class="btn" >Motrar mais</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="new-students">
+                    <div class="title">
+                        <h2>Novos Clientes</h2>
+                        <a href="#" class="btn">Mostrar tudo</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Perfil</th>
+                            <th>Nome</th>
+                            <th>Opção</th>
+                        </tr>
+                        <tr>
+                            <td><img src="img/perfil-de-usuario.png"></td>
+                            <td>Katia Daga</td>
+                            <td><img src="img/info.png"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/perfil-de-usuario.png"></td>
+                            <td>Katia Daga</td>
+                            <td><img src="img/info.png"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/perfil-de-usuario.png"></td>
+                            <td>Katia Daga</td>
+                            <td><img src="img/info.png"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/perfil-de-usuario.png"></td>
+                            <td>Katia Daga</td>
+                            <td><img src="img/info.png"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/perfil-de-usuario.png"></td>
+                            <td>Katia Daga</td>
+                            <td><img src="img/info.png"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
